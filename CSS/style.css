@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+#header{height: 500px !important;}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+#header nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;z-index: 2;position: relative;
+    position: fixed;
+}
+
+#header nav ul {
+    display: flex;
+}
+
+#header nav ul li a {
+    padding: 0 12px;
+}
+
+#header nav .icon {
+    position: relative;
+}
+
+#header nav .icon .count {
+    position: absolute;
+    top: -15px;
+    right: 28px;
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 12px;
+}
+
+ 
+
+
+.gour-meet{background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/slider-bg-gourmet-3.jpg);height: 120vh;}
+   
+
+
+.gour-meet img {
+  position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%);z-index: 1;
+}
